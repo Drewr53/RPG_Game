@@ -22,3 +22,5 @@ while running:
         dmg = player.generate_damage()
         enemy.take_damage(dmg)
         print("You attacked for", dmg, "points of damage.   Enemy HP:", enemy.get_hp())
+
+        testing
