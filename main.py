@@ -29,4 +29,4 @@ while running:
         magic_dmg = player.generate_spell_damage(magic_index)
         player.reduce_mp(int(player.get_spell_mp_cost(magic_index)))
         enemy.take_damage(magic_dmg)
-        print("You attacked for", magic_dmg, "points of damage. You have ", player.get_mp, "Enemy HP:", enemy.get_hp())
+        print("You attacked for", magic_dmg, "points of damage. You have", player.get_mp(),"mp left. Enemy HP:", enemy.get_hp())
