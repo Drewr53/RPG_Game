@@ -67,7 +67,7 @@ class Person:
 
     def choose_magic(self):
         i = 1
-        print("Msgic")
+        print("Magic")
         for spell in self.magic:
-            print(str(i) + ":", spell["name"], "(cost", str(spell["mp"]) + ")")
+            print(str(i) + ":", spell["name"], "(cost", str(spell["cost"]) + ")")
             i += 1
